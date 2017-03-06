@@ -7,7 +7,7 @@ body {
   background-color: #f8f8f8;
 }
 
-/* Nav */
+/* Navagation */
 
 .navbar {
   height: 3.125rem;
@@ -39,7 +39,12 @@ body {
 
 /* Jumbotron */
 
-.jumbotron .container-fluid .image{
+.jumbotron {
+  margin-top: 3.125rem;
+  padding: 0;
+}
+
+.jumbotron div div {
   height: 43.5rem;
   background-image: url('../images/jumbotron.png');
 	background-repeat: no-repeat;
@@ -48,7 +53,7 @@ body {
   text-align: center;
 }
 
-.jumbotron .container-fluid .image h1 {
+.jumbotron div div h1 {
   margin: 17rem 0 0 0;
   font-family: "Arbutus Slab";
   font-size: 3.75rem;
@@ -57,14 +62,16 @@ body {
   padding: 0.25rem 0;
 }
 
-.jumbotron .container-fluid .image p {
+.jumbotron div div p {
   font-family: "Roboto";
   font-size: 1.25rem;
   background-color: #f5cb07;
   padding: 0.5rem 0;
 }
 
-.jumbotron .container-fluid .text1 p {
+/* Quotes */
+
+.quotes .quote1 p {
   margin: 7rem auto 0 auto;
   width: 83%;
   font-family: "Droid Serif";
@@ -74,7 +81,7 @@ body {
   line-height: 1.3;
 }
 
-.jumbotron .container-fluid .text2 p {
+.quotes .quote2 p {
   margin: auto;
   width: 83%;
   font-family: "Roboto";
@@ -84,14 +91,51 @@ body {
   margin-top: 1rem;
 }
 
-.jumbotron .container-fluid .text2 p span {
+.quotes .quote2 p span {
   font-weight: 700;
 }
 
 @media only screen and (max-width:768px) {
 
-  .jumbotron .container-fluid .text1 p {
+  .quotes .quote1 p {
     margin: 4rem auto 0 auto;
   }
 
+}
+
+/* Features */
+
+.features {
+  width: 83%;
+  margin: 9.25rem auto 0 auto;
+}
+
+.features .text  {
+  border-top: 1px solid #d4d5d6;
+}
+
+.features .text h2 {
+  width: auto;
+  text-align: center;
+  position: relative;
+  top: -1.75rem;
+  /*background-color: #f8f8f8;*/
+  font-family: "Arbutus Slab";
+  font-size: 3rem;
+  margin: 0;
+  padding: 0;
+}
+
+.features .images {
+  margin: 2.25rem 0 3rem 0;
+}
+
+.features .images div img {
+  max-width: 100%;
+}
+
+@media only screen and (max-width:768px) {
+  .features .images div {
+    margin-bottom: 2rem;
+  }
 }
