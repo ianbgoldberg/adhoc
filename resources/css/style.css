@@ -22,7 +22,7 @@ body {
 }
 
 .nav .navbar-nav .col-sm-3 .col-xs-12 .d-inline a {
-  font-family: Roboto;
+  font-family: "Roboto";
   font-size: 0.875rem;
   color: #4a4a4a;
 }
@@ -35,4 +35,63 @@ body {
   .navbar-header img {
     display: none;
   }
+}
+
+/* Jumbotron */
+
+.jumbotron .container-fluid .image{
+  height: 43.5rem;
+  background-image: url('../images/jumbotron.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+  text-align: center;
+}
+
+.jumbotron .container-fluid .image h1 {
+  margin: 17rem 0 0 0;
+  font-family: "Arbutus Slab";
+  font-size: 3.75rem;
+  color: #fff;
+  background-color: #d404df;
+  padding: 0.25rem 0;
+}
+
+.jumbotron .container-fluid .image p {
+  font-family: "Roboto";
+  font-size: 1.25rem;
+  background-color: #f5cb07;
+  padding: 0.5rem 0;
+}
+
+.jumbotron .container-fluid .text1 p {
+  margin: 7rem auto 0 auto;
+  width: 83%;
+  font-family: "Droid Serif";
+  font-size: 1.5rem;
+  font-style: italic;
+  color: #4a4a4a;
+  line-height: 1.3;
+}
+
+.jumbotron .container-fluid .text2 p {
+  margin: auto;
+  width: 83%;
+  font-family: "Roboto";
+  font-size: 0.875rem;
+  font-style: italic;
+  line-height: 1.4;
+  margin-top: 1rem;
+}
+
+.jumbotron .container-fluid .text2 p span {
+  font-weight: 700;
+}
+
+@media only screen and (max-width:768px) {
+
+  .jumbotron .container-fluid .text1 p {
+    margin: 4rem auto 0 auto;
+  }
+
 }
