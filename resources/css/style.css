@@ -1,0 +1,38 @@
+/* Global */
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: #f8f8f8;
+}
+
+/* Nav */
+
+.navbar {
+  height: 3.125rem;
+  margin: 0;
+  background-color: #fff;
+  padding: 1rem;
+  box-shadow: 0 0.125rem 0.25rem 0 rgba(0, 0, 0, 0.5);
+}
+
+.navbar-header {
+  height: 2.25rem;
+}
+
+.nav .navbar-nav .col-sm-3 .col-xs-12 .d-inline a {
+  font-family: Roboto;
+  font-size: 0.875rem;
+  color: #4a4a4a;
+}
+
+.nav .navbar-nav .col-sm-3 .col-xs-12 .d-inline a:active{
+  color: #37c2aa;
+}
+
+@media only screen and (max-width:768px){
+  .navbar-header img {
+    display: none;
+  }
+}
