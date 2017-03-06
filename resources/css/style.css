@@ -110,13 +110,13 @@ body {
   margin: 9.25rem auto 0 auto;
 }
 
-.features .text  {
+.features .header  {
+  text-align: center;
   border-top: 1px solid #d4d5d6;
 }
 
-.features .text h2 {
+.features .header h2 {
   width: auto;
-  text-align: center;
   position: relative;
   top: -1.75rem;
   /*background-color: #f8f8f8;*/
@@ -138,4 +138,40 @@ body {
   .features .images div {
     margin-bottom: 2rem;
   }
+}
+
+/* Team */
+
+.team {
+  background-color: #4a4a4a;
+  padding: 5.5rem 0 7.25rem 0;
+}
+
+.team .header {
+  font-size: 3rem;
+  color: #fff;
+  font-family: "Arbutus Stab";
+  text-align: center;
+}
+
+.team .people div img {
+  margin-top: 3.375rem;
+  max-width: 100%;
+}
+
+.team .people div h3 {
+  font-family: "Roboto";
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+  margin: 2rem 0 0 0;
+}
+
+.team .people div p {
+  font-family: "Roboto";
+  font-size: 0.875rem;
+  text-align: center;
+  color: #fff;
+  margin-top: 0;
 }
