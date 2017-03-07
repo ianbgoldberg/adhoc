@@ -207,3 +207,23 @@ body {
   margin-bottom: 2rem;
   max-width: 100%;
 }
+
+/* Footer */
+
+footer {
+  background-color: #e9ebeb;
+  padding: 2.625rem 0 2rem 0;
+}
+
+footer .social-media{
+  margin-bottom:1.5rem;
+}
+
+footer .copyright {
+  text-align: center;
+}
+
+footer .copyright p{
+  font-size: 0.75rem;
+  color: #212123;
+}
