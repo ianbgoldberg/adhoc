@@ -147,7 +147,7 @@ body {
   padding: 5.5rem 0 7.25rem 0;
 }
 
-.team .header {
+.team .header h2{
   font-size: 3rem;
   color: #fff;
   font-family: "Arbutus Stab";
@@ -174,4 +174,36 @@ body {
   text-align: center;
   color: #fff;
   margin-top: 0;
+}
+
+/* Clients */
+
+.clients {
+  width: 83%;
+  margin: 9.25rem auto 0 auto;
+}
+
+.clients .header  {
+  text-align: center;
+  border-top: 1px solid #d4d5d6;
+}
+
+.clients .header h2 {
+  width: auto;
+  position: relative;
+  top: -1.75rem;
+  /*background-color: #f8f8f8;*/
+  font-family: "Arbutus Slab";
+  font-size: 3rem;
+  margin: 0;
+  padding: 0;
+}
+
+.clients .logos {
+  margin: 5.5rem 0 2rem 0;
+}
+
+.clients .logos div img {
+  margin-bottom: 2rem;
+  max-width: 100%;
 }
