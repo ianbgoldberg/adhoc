@@ -9,32 +9,44 @@ body {
 
 /* Navagation */
 
-.navbar {
+nav {
   height: 3.125rem;
   margin: 0;
   background-color: #fff;
   padding: 1rem;
   box-shadow: 0 0.125rem 0.25rem 0 rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
 }
 
-.navbar-header {
-  height: 2.25rem;
+nav div {
+  display: flex;
+  align-items: center;
 }
 
-.nav .navbar-nav .col-sm-3 .col-xs-12 .d-inline a {
+nav div img {
+  height: 1.25rem;
+}
+
+nav div ul li a {
   font-family: "Roboto";
   font-size: 0.875rem;
   color: #4a4a4a;
 }
 
-.nav .navbar-nav .col-sm-3 .col-xs-12 .d-inline a:active{
+ nav div ul li a:hover{
   color: #37c2aa;
 }
 
 @media only screen and (max-width:768px){
-  .navbar-header img {
+  nav div img {
     display: none;
   }
+
+  nav {
+    height: inherit;
+  }
+
 }
 
 /* Jumbotron */
@@ -71,7 +83,7 @@ body {
 
 /* Quotes */
 
-.quotes .quote1 p {
+.quotes .quote1 {
   margin: 7rem auto 0 auto;
   width: 83%;
   font-family: "Droid Serif";
@@ -81,7 +93,7 @@ body {
   line-height: 1.3;
 }
 
-.quotes .quote2 p {
+.quotes .quote2 {
   margin: auto;
   width: 83%;
   font-family: "Roboto";
@@ -91,7 +103,7 @@ body {
   margin-top: 1rem;
 }
 
-.quotes .quote2 p span {
+.quotes .quote2 span {
   font-weight: 700;
 }
 
@@ -108,14 +120,11 @@ body {
 .features {
   width: 83%;
   margin: 9.25rem auto 0 auto;
-}
-
-.features .header  {
-  text-align: center;
   border-top: 1px solid #d4d5d6;
+  text-align: center;
 }
 
-.features .header h2 {
+.features h2 {
   width: auto;
   position: relative;
   top: -1.75rem;
@@ -145,13 +154,13 @@ body {
 .team {
   background-color: #4a4a4a;
   padding: 5.5rem 0 7.25rem 0;
+  text-align: center;
 }
 
-.team .header h2{
+.team h2 {
   font-size: 3rem;
   color: #fff;
   font-family: "Arbutus Stab";
-  text-align: center;
 }
 
 .team .people div img {
@@ -171,7 +180,6 @@ body {
 .team .people div p {
   font-family: "Roboto";
   font-size: 0.875rem;
-  text-align: center;
   color: #fff;
   margin-top: 0;
 }
@@ -181,14 +189,11 @@ body {
 .clients {
   width: 83%;
   margin: 9.25rem auto 0 auto;
-}
-
-.clients .header  {
   text-align: center;
   border-top: 1px solid #d4d5d6;
 }
 
-.clients .header h2 {
+.clients h2 {
   width: auto;
   position: relative;
   top: -1.75rem;
@@ -213,6 +218,7 @@ body {
 footer {
   background-color: #e9ebeb;
   padding: 2.625rem 0 2rem 0;
+  text-align: center;
 }
 
 footer .social-media{
