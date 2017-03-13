@@ -20,12 +20,13 @@ nav {
 }
 
 nav div {
-  display: flex;
-  align-items: center;
+  width: 100%;
+  display: inline-block;
 }
 
 nav div img {
   height: 1.25rem;
+  margin-top: 0.75rem;
 }
 
 nav div ul li a {
